@@ -1,4 +1,6 @@
 #!/bin/bash
+exec >> file
+exec 2>&1
 date;
 echo "uptime:"
 uptime
